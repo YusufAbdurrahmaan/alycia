@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS-only Foundation book preview</title>
+    <link rel="stylesheet" href="https://public.codepenassets.com/css/reset-2.0.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="cover">
+        <div class="book">
+            <label for="page-1" class="book__page book__page--1">
+                <img src="../img/1.png" alt="">
+            </label>
+
+            <!-- <label for="page-2" class="book__page book__page--4" style="background-color: pink;">
+                <div class="page__content" style="display: flex; align-items: center; justify-content: center;">
+                    <img src="../img/1000101188.jpg" alt="Halaman 2"
+                        style="width:100%; height:82%; object-fit:cover;; border: 3px solid white;">
+            </label> -->
+
+            <label for="page-2" class="book__page book__page--4" style="background-color: grey;">
+                <div style="  position: relative;">
+                    <img src="../img/1000101188.jpg" alt="Halaman 2" style="border: 3px solid rgb(255, 255, 255);">
+                </div>
+                <img src="../img/Red_Balloon_Transparent_PNG_Clip_Art_Image-2027931306.png" alt=""
+                    style="position: absolute; height: 180px; width: 150px; object-fit: contain; right: 0; left: 127px;">
+            </label>
+
+
+            <!-- Resets the page -->
+            <input type="radio" name="page" id="page-1" />
+
+            <!-- Goes to the second page -->
+            <input type="radio" name="page" id="page-2" />
+            <label class="book__page book__page--2">
+                <div class="book__page-front">
+                    <div class="page__content">
+                        <h3 class="page__content-book-title">
+                            Happy Birth
+                            <span>Day Sayang</span>
+                        </h3>
+
+                        <p class="page__content-credits" style="margin-top: 17px; font-size: 18px;">
+                            Moment of book
+                        </p>
+
+                        <h2 class="page__content-author" style="font-size: 28px;">Alycia and Yusuf</h2>
+
+                        <!-- <p class="page__content-credits">
+                            Illustrations by
+                            <span>Yusuf</span>
+                        </p> -->
+
+                        <div class="page__content-copyright" style="font-size: 18px;">
+                            <p>Create By</p>
+                            <p>Yusuf Abdurraahman</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="book__page-back">
+                    <div class="page__content">
+                        <h1 class="page__content-title" style="font-size: 12px; ">You are beautiful girl</h1>
+
+                        <div style="display: flex; flex-direction: column; gap: 5px; margin-top: -20px;">
+                            <img src="../img/1000077184 (1).jpg" alt=""
+                                style="width: 100%; height: 290px; object-fit: cover;">
+                            <img src="../img/1000103707.jpg" alt=""
+                                style="width: 100%; height: 200px; object-fit: cover;">
+                            <!-- <img src="../img/1000101019.jpg" alt=""
+                                style="width: 100%; height: 200px; object-fit: cover;">
+                            <img src="../img/1000102358.jpg" alt=""
+                                style="width: 100%; height: 200px; object-fit: cover;"> -->
+                        </div>
+
+
+                        <p class="page__content-copyright" style="margin-bottom: 10px; font-size: 15px;">Happy Birthday
+                            to the one who
+                            owns my heart. May your day be
+                            as special and beautiful as you
+                            are to me</p>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+
+
+    <p style="margin-top: 45px; 
+          font-size: 24px; 
+          background-color: #ffffff; 
+          color: rgb(0, 0, 0); 
+          padding: 14px 26px; 
+          border-radius: 8px; 
+          text-align: center; 
+          display: inline-block; 
+          cursor: pointer;">
+        Kamu pencet sayanggg kertas nya ⬆
+    </p>
+
+    <!-- partial -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
